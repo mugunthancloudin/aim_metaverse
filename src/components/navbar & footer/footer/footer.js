@@ -72,11 +72,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr />
+        {/* <hr />
         <div className="row text-center pt-3 pb-3">
           <h3>If you have any questions please contact us</h3>
           <p> info@aim.com | +91 950 17 xxxxx , +91 987 83 xxxxx</p>
-        </div>
+        </div> */}
 
        
           <hr />

@@ -43,7 +43,7 @@ export default function Contact() {
       <div className="container text-white">
         <div className="row">
           <div className="col-lg-7">
-            <h1 className="pt-5 ">Want product news and updates?</h1>
+            <h1 className="pt-3 ">Want product news and updates?</h1>
             <h1 className="pt-2 pb-2 ">Sign up for our newsletter.</h1>
             {/* <div className="d-flex "> */}
             <input
