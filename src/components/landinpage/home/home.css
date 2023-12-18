@@ -1,0 +1,70 @@
+.lanchBtn {
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    #77530a,
+    #ffd277,
+    #77530a,
+    #77530a,
+    #ffd277,
+    #77530a
+  );
+  background-size: 250%;
+  text-wrap: nowrap;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+  padding: 3%;
+  
+  margin-top: 5%;
+  /* font-size: 18px; 
+  /* width: 40%; */
+  height: auto;
+}
+
+.lanchBtn::before {
+  position: absolute;
+  content: "GET TOKEN";
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.lanchBtn:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.lanchBtn:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.lanchBtn:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .lanchBtn {
+      padding: 2%; /* Adjust padding for smaller screens */
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .lanchBtn::before {
+      content: "GET TOKEN";
+      font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}

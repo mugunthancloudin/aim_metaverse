@@ -1,0 +1,23 @@
+.aboutCard {
+    align-items: center;
+  justify-content: center;
+  
+  -webkit-box-shadow: 0px 0px 49px 1px rgba(90, 141, 199, 1);
+  -moz-box-shadow: 0px 0px 49px 1px rgba(90, 141, 199, 1);
+  box-shadow: 0px 0px 49px 1px rgba(90, 141, 199, 1);
+}
+
+.aboutH1 {
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 36px;
+}
+.aboutP {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #d8d8d8;
+  }
+  
+

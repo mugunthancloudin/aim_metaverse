@@ -1,0 +1,64 @@
+{
+  "potocols": [
+    {
+      "id": 1,
+      "title": "Blockchain Mechanics",
+      "image": "./images/protocol/first.svg",
+      "description": "The game incorporates blockchain-based in-game currencies (AIM Token and AIM Coin), real-time smart contract execution for game scenarios, fully decentralized non-fungible token (NFT) asset ownership, a decentralized digital currency exchange, and an NFT marketplace. It also includes territory-based mining revenue, DeFi integration via Serum, and an on-chain governance model, allowing players significant political control."
+    },
+    {
+      "id": 2,
+      "title": "Core Game Mechanics",
+      "image": "./images/protocol/system.svg",
+      "description": "AIM features grand strategy space exploration, control over land and territories, management of vehicles and fleets including various spaceships, space and land-based mining operations, and player vs. environment missions. It also offers player vs. player combat, a dynamic career system utilizing specialized equipment, and is built using Unreal Engine 5 and VR technology."
+    },
+    {
+      "id": 3,
+      "title": "Economic Model",
+      "image": "./images/protocol/daps.svg",
+      "description": " Unlike many traditional games, AIM allows players to convert in-game virtual earnings into real-world income. This is made possible by decentralized self-sovereign ownership of assets through blockchain technology and NFT marketplaces. The game encourages players to monetize their time spent in the virtual world, with the ability to convert digital assets and crypto assets earned into fiat currencies."
+    }
+  ],
+
+  "advantage": [
+    {
+      "id": 1,
+      "title": "Solana",
+      "description": "As blockchain technology continues to evolve towards greater capabilities, innovative development possibilities emerge. With the release of AIM, all in-game assets will be delivered to the player as direct-owned non-fungible digital tokens. P",
+      "icon": "./images/tools/Solana.svg"
+    },
+    {
+      "id": 2,
+      "title": "Serum",
+      "description": "An active in-game economy and a high volume of trading means users will need a feature-rich exchange to manage all of their asset sales. Serum’s decentralized exchange (DEX) fulfills the needs to support the AIM economy.",
+      "icon": "./images/tools/Serum.svg"
+    },
+    {
+      "id": 3,
+      "title": "Stardust",
+      "description": "Stardust operates at a very important layer. They introduce optimized ways to deal with non-fungible token in-game assets securely and in a user-friendly manner",
+      "icon": "./images/tools/Stardust.svg"
+    },
+    {
+      "id": 4,
+      "title": "Unreal Engine 5",
+      "description": "Next-generation real-time graphics technology include: Nanite for cinema quality models, Lumen for real-time global illumination, the Chaos physics engine, and the Niagara particles system.",
+      "icon": "./images/tools/Unreal engine 5.svg" 
+    },
+    {
+      "id": 5,
+      "title": "Nanite",
+      "description": "With the release of Nanite technology via Unreal Engine 5 in 2021, traditional asset authoring pipelines become optimized and the visual quality is dramatically improved.",
+      "icon": "./images/tools/Nanite.svg"
+    }
+    ,
+    {
+      "id": 6,
+      "title": "Lumen",
+      "description": "Lumen will allow far more believable and dynamic environments as the lighting doesn’t require faked enhancements with manually placed lighting",
+      "icon": "./images/tools/Lumen.svg"
+    }
+
+    
+  ]
+}
