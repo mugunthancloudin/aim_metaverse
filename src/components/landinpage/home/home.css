@@ -68,3 +68,14 @@
       font-size: 12px; /* Adjust font size for smaller screens */
   }
 }
+
+.homeH1 {
+  font-family: "Outfit";
+  font-weight: 600;
+}
+
+.homeH6{
+  font-family: "Inter";
+    font-size: 18px;
+    color: #d8d8d8;
+}

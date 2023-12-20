@@ -69,12 +69,13 @@ export default function Protocal() {
                   style={{ height: "100px", objectFit: "contain" }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title text-center">
+                  <h5 className="card-title protocolH1 text-center">
                     {card.id}. {card.title}
                   </h5>
                   <TruncatedDescription
                     description={card.description}
                     maxLength={200}
+                    
                   />
                 </div>
               </div>

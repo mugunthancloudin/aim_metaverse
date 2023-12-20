@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <>
       <div className="container pt-5 pb-5 text-white" id="action5">
-        <h1 className="fw-bold text-center">Join the Community</h1>
+        <h1 className="fw-bold contactH1 text-center">Join the Community</h1>
         <div className="row">
           <div className="col-lg-6 contactCoin">
             <Lottie
@@ -20,10 +20,10 @@ export default function Contact() {
             />
           </div>
           <div className="col-lg-6">
-            <h2 className="mt-5">
+            <h2 className="mt-5 contactH1" >
               Ready to dive in? Find out more about the AIM Token
             </h2>
-            <p className="pt-2 ">
+            <p className="pt-2 contactFontP">
               Empowering our ecosystem and rewarding token holders through its
               core functionality and value proposition.
             </p>
@@ -43,8 +43,8 @@ export default function Contact() {
       <div className="container text-white">
         <div className="row">
           <div className="col-lg-7">
-            <h1 className="pt-3 ">Want product news and updates?</h1>
-            <h1 className="pt-2 pb-2 ">Sign up for our newsletter.</h1>
+            <h1 className="pt-3 contactH1">Want product news and updates?</h1>
+            <h1 className="pt-2 pb-2 contactH1">Sign up for our newsletter.</h1>
             {/* <div className="d-flex "> */}
             <input
               type="text"
@@ -54,7 +54,7 @@ export default function Contact() {
             <button className="subscribeBtn mt-3"> Subscribe</button>
             {/* </div> */}
             
-            <p className="pt-3">
+            <p className="pt-3 contactFontP">
               We care about your data. Read our privacy policy.
             </p>
           </div>

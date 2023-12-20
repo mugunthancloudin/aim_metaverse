@@ -8,9 +8,9 @@ export default function About() {
         <div className="card bg-dark pt-5 pb-5  pb-2 aboutCard">
           <div className="row text-white ">
             <div className="col-lg-4">
-              <h1 className="aboutH1 ps-2 text-center">
+              <h2 className="aboutH1 ps-2 text-center">
                 Rise of Blockchain Gaming Era.{" "}
-              </h1>
+              </h2>
             </div>
             <div className="col-lg-8">
               <p className="aboutP text-center ps-2 pe-4">

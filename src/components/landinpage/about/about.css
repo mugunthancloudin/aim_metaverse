@@ -10,13 +10,12 @@
 .aboutH1 {
   font-family: "Outfit";
   font-weight: 600;
-  font-size: 36px;
 }
+
+
 .aboutP {
     font-family: "Inter";
-    font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
     color: #d8d8d8;
   }
   

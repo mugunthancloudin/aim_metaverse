@@ -4,34 +4,43 @@
 }
 
 .protocolH6{
-    /* font-family: "inter"; */
+    font-family: "Inter";
     font-size: 130%;
     font-weight: 600;
-    /* line-height: 28px; */
-    text-decoration: none solid rgb(46,144,250);
     color:  rgb(46,144,250) ;
 }
 
 .protocolP{
-    /* font-family: "inter"; */
+    font-family: "inter";
     font-size: 18px;
-    font-weight: 600;
     text-decoration: none solid rgb(216,216,216);
     padding: 0 48px 0 48px;
 }
 
 .protocolH1{
-    font-family: "outfit";
-    font-size: 40px;
+    font-family: "Outfit";
     font-weight: 600;
-    text-decoration: none solid rgb(216,216,216);
 
 }
+
+.aboutH1 {
+    font-family: "Outfit";
+    font-weight: 600;
+  }
 
 .protocolBtn{
     background-color: rgb(74,72,82);
     color: white;
     border-radius: 20px;
     border: none;
+    
+}
+
+.protocalCard{
+    font-family: "inter";
+    font-size: 18px;
+}
+
+.toolTitle{
     
 }

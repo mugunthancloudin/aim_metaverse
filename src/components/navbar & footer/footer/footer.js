@@ -30,22 +30,22 @@ export default function Footer() {
           <div className="col-lg-6">
             <div className="row">
               <div className="col-lg-4 ">
-                <h5>ABOUT PROJECT</h5>
-                <p className="mt-4">Hardhat Repository</p>
-                <p>Graph Repository</p>
-                <p>React Repository</p>
+                <h5 className="footerTitle">ABOUT PROJECT</h5>
+                <p className="mt-4 footerP">Hardhat Repository</p>
+                <p className=" footerP">Graph Repository</p>
+                <p className=" footerP">React Repository</p>
               </div>
               <div className="col-lg-4">
-                <h5>HARDHAT TOOLS</h5>
-                <p className="mt-4">Hardhat</p>
-                <p>The Graph</p>
-                <p>Alchemy</p>
+                <h5 className="footerTitle">HARDHAT TOOLS</h5>
+                <p className="mt-4 footerP">Hardhat</p>
+                <p className=" footerP">The Graph</p>
+                <p className=" footerP">Alchemy</p>
               </div>
               <div className="col-lg-4">
-                <h5>FRONTEND</h5>
-                <p className="mt-4">Reactjs</p>
-                <p>Bootstrap</p>
-                <p>Gsap</p>
+                <h5 className="footerTitle">FRONTEND</h5>
+                <p className="mt-4 footerP">Reactjs</p>
+                <p className=" footerP">Bootstrap</p>
+                <p className=" footerP">Gsap</p>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function Footer() {
               alt="AIM Logo"
             />
             </div>
-            <p className="mt-2">
+            <p className=" footerP">
               Crafting the next-level of user experience and data
               security.
             </p>

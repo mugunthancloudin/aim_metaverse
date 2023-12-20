@@ -42,8 +42,8 @@ export default function Home() {
 
           <div className="col-lg-5">
             <div className="row text-white">
-              <h6 className="mt-5 pt-5">Metaverse & AI</h6>
-              <h1 className="pt-3 fw-bold">
+              <h6 className="mt-5 homeH6 pt-5">Metaverse & AI</h6>
+              <h1 className="pt-3 homeH1 fw-bold">
                 AI-Driven Metaverse Revolutionizes Digital Evolution.
               </h1>
               <div className="text-center">

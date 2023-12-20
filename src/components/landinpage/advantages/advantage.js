@@ -12,7 +12,7 @@ export default function Advantage() {
     <>
       <div className='container text-white' id="action4">
         <div className='row'>
-          <h1 className='fw-bold text-center'>Tools Used In AIM</h1>
+          <h1 className='fw-bold protocolH1 text-center'>Tools Used In AIM</h1>
         </div>
         <div className="row">
           {advantage.map((advantage) => (
@@ -25,8 +25,8 @@ export default function Advantage() {
                   style={{ height: "100px", objectFit: "contain" }}
                 />
                 <div className="text-center">
-                  <h5 className="fw-bold">{advantage.title}</h5>{" "}
-                  <p className="fst-italic ">{advantage.description}</p>
+                  <h5 className="fw-bold toolTitle">{advantage.title}</h5>{" "}
+                  <p className="toolsDesc">{advantage.description}</p>
                   {/* <TruncatedDescription description={service.description} maxLength={150} />  */}
                 </div>
               </div>

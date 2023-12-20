@@ -13,7 +13,7 @@ const TruncatedDescription = ({ description, maxLength }) => {
 
   return (
     <div>
-      <p>{truncatedText}</p>
+      <p className="protocalCard">{truncatedText}</p>
       {description.length > maxLength && (
         <span className="show-more-btn" onClick={toggleExpansion}>
           {/* <button className="border-0 fw-bold "> */}
